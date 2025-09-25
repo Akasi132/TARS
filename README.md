@@ -4,6 +4,31 @@ TARS is a modular, intelligent assistant system designed to emulate a personaliz
 
 ---
 
+## 🛠️ Development Guidelines
+
+### 📌 Branching Strategy
+
+We follow a **feature-branch model** to keep development modular, clean, and collaborative.
+
+#### 🔄 Existing Branches
+| Branch Name | Purpose |
+|-------------|---------|
+| `main` | Production-ready code only |
+| `feature/wake-word` | Wake Word Detection |
+| `feature/stt-whisper` | Speech-to-Text via Whisper |
+| `feature/tts-output` | Text-to-Speech output |
+| `feature/real-time-chat` | Real-Time Voice Chat | Bi-directional voice via GPT (Vapi.ai) |
+| `feature/personality-engine` | Personality Engine | Humor, sarcasm, honesty sliders |
+| `feature/rag-memory` | RAG-based Memory | ChromaDB for past context |
+| `feature/object-detection` | Object Detection | Live webcam + YOLOv8 |
+| `feature/utility-skills` | Utility Tools | Weather, Email, Translation, Notes
+
+Each developer works on a separate feature branch and merges to `main` only after review and testing.
+
+---
+
+
+
 ## 🛠️ Project Setup
 
 ```bash
@@ -99,10 +124,12 @@ TARS/
 
 ---
 
-## 👨‍💻 Author
 
-**Krushna Thakkar**  
-AI Researcher | MSAI @ SJSU | Hobbyist Builder  
-[GitHub](https://github.com/kru2710shna) • [Website](https://localhost0027.netlify.app)
+### ✅ To-Do Summary
 
----
+- [x] Use feature branches for modular work.
+- [x] Keep `main` clean and stable.
+- [ ] Add contributors to the correct repo (`ai-ml-club-sjsu/project-fa25-Tars`).
+- [ ] Assign modules and tasks to each team member.
+
+Happy building, TARS Devs 🚀
