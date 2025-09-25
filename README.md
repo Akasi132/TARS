@@ -91,11 +91,11 @@ TARS/
 ---
 
 ## Contribution Guidelines
-Follow modular architecture when adding new features
-Document your functions and modules
-Use clear commit messages (feat:, fix:, refactor:, etc.)
-Open a Pull Request after testing locally
-Follow instructions from the project leads during weekly syncs
+- Follow modular architecture when adding new features
+- Document your functions and modules
+- Use clear commit messages (feat:, fix:, refactor:, etc.)
+- Open a Pull Request after testing locally
+- Follow instructions from the project leads during weekly syncs
 
 ---
 
