@@ -24,7 +24,18 @@ python list_devices.py
 # 5. Run the assistant
 python main.py
 ```
+> 🔁 **Git Remotes Info**
+> This repo is connected to both:
+> - `origin`: your personal copy (optional backup)
+> - `club`: the main team repository (👈 always push here!)
 
+```bash
+# To push updates to the club repo
+git push club main
+
+# (Only push to origin if you’re testing something personally)
+git push origin main
+```
 ---
 
 ## ✅ Current Progress
