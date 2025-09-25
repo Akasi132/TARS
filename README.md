@@ -90,6 +90,15 @@ TARS/
 
 ---
 
+## Contribution Guidelines
+Follow modular architecture when adding new features
+Document your functions and modules
+Use clear commit messages (feat:, fix:, refactor:, etc.)
+Open a Pull Request after testing locally
+Follow instructions from the project leads during weekly syncs
+
+---
+
 ## 👨‍💻 Author
 
 **Krushna Thakkar**  
@@ -97,7 +106,3 @@ AI Researcher | MSAI @ SJSU | Hobbyist Builder
 [GitHub](https://github.com/kru2710shna) • [Website](https://localhost0027.netlify.app)
 
 ---
-
-## 📜 License
-
-MIT License. See `LICENSE` file.
