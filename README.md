@@ -4,6 +4,31 @@ TARS is a modular, intelligent assistant system designed to emulate a personaliz
 
 ---
 
+## 🛠️ Development Guidelines
+
+### 📌 Branching Strategy
+
+We follow a **feature-branch model** to keep development modular, clean, and collaborative.
+
+#### 🔄 Existing Branches
+| Branch Name | Purpose |
+|-------------|---------|
+| `main` | Production-ready code only |
+| `feature/wake-word` | Wake Word Detection |
+| `feature/stt-whisper` | Speech-to-Text via Whisper |
+| `feature/tts-output` | Text-to-Speech output |
+| `feature/real-time-chat` | Real-Time Voice Chat | Bi-directional voice via GPT (Vapi.ai) |
+| `feature/personality-engine` | Personality Engine | Humor, sarcasm, honesty sliders |
+| `feature/rag-memory` | RAG-based Memory | ChromaDB for past context |
+| `feature/object-detection` | Object Detection | Live webcam + YOLOv8 |
+| `feature/utility-skills` | Utility Tools | Weather, Email, Translation, Notes
+
+Each developer works on a separate feature branch and merges to `main` only after review and testing.
+
+---
+
+
+
 ## 🛠️ Project Setup
 
 ```bash
@@ -24,7 +49,18 @@ python list_devices.py
 # 5. Run the assistant
 python main.py
 ```
+> 🔁 **Git Remotes Info**
+> This repo is connected to both:
+> - `origin`: your personal copy (optional backup)
+> - `club`: the main team repository (👈 always push here!)
 
+```bash
+# To push updates to the club repo
+git push club main
+
+# (Only push to origin if you’re testing something personally)
+git push origin main
+```
 ---
 
 ## ✅ Current Progress
@@ -79,14 +115,21 @@ TARS/
 
 ---
 
-## 👨‍💻 Author
-
-**Krushna Thakkar**  
-AI Researcher | MSAI @ SJSU | Hobbyist Builder  
-[GitHub](https://github.com/kru2710shna) • [Website](https://localhost0027.netlify.app)
+## Contribution Guidelines
+- Follow modular architecture when adding new features
+- Document your functions and modules
+- Use clear commit messages (feat:, fix:, refactor:, etc.)
+- Open a Pull Request after testing locally
+- Follow instructions from the project leads during weekly syncs
 
 ---
 
-## 📜 License
 
-MIT License. See `LICENSE` file.
+### ✅ To-Do Summary
+
+- [x] Use feature branches for modular work.
+- [x] Keep `main` clean and stable.
+- [ ] Add contributors to the correct repo (`ai-ml-club-sjsu/project-fa25-Tars`).
+- [ ] Assign modules and tasks to each team member.
+
+Happy building, TARS Devs 🚀
